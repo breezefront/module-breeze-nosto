@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="breeze.js">
+            <arguments>
+                <argument name="bundles" xsi:type="array">
+                    <item name="default" xsi:type="array">
+                        <item name="items" xsi:type="array">
+                            <item name="nostojs" xsi:type="array">
+                                <item name="path" xsi:type="string">Nosto_Tagging/js/nostojs</item>
+                                <item name="load" xsi:type="array">
+                                    <item name="onRequire" xsi:type="boolean">true</item>
+                                </item>
+                            </item>
+                            <item name="recobuy" xsi:type="array">
+                                <item name="path" xsi:type="string">Nosto_Tagging/js/recobuy</item>
+                                <item name="import" xsi:type="array">
+                                    <item name="nostojs" xsi:type="string">nostojs</item>
+                                </item>
+                                <item name="load" xsi:type="array">
+                                    <item name="onRequire" xsi:type="boolean">true</item>
+                                </item>
+                            </item>
+                            <item name="Nosto_Tagging/js/view/cart-tagging" xsi:type="array">
+                                <item name="path" xsi:type="string">Nosto_Tagging/js/view/cart-tagging</item>
+                                <item name="import" xsi:type="array">
+                                    <item name="nostojs" xsi:type="string">nostojs</item>
+                                </item>
+                                <item name="load" xsi:type="array">
+                                    <item name="onRequire" xsi:type="boolean">true</item>
+                                </item>
+                            </item>
+                            <item name="Nosto_Tagging/js/view/customer-tagging" xsi:type="array">
+                                <item name="path" xsi:type="string">Nosto_Tagging/js/view/customer-tagging</item>
+                                <item name="import" xsi:type="array">
+                                    <item name="nostojs" xsi:type="string">nostojs</item>
+                                </item>
+                                <item name="load" xsi:type="array">
+                                    <item name="onRequire" xsi:type="boolean">true</item>
+                                </item>
+                            </item>
+                            <item name="Nosto_Tagging/js/view/variation-tagging" xsi:type="array">
+                                <item name="path" xsi:type="string">Nosto_Tagging/js/view/variation-tagging</item>
+                                <item name="import" xsi:type="array">
+                                    <item name="nostojs" xsi:type="string">nostojs</item>
+                                </item>
+                                <item name="load" xsi:type="array">
+                                    <item name="onRequire" xsi:type="boolean">true</item>
+                                </item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

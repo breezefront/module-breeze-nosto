@@ -1,0 +1,19 @@
+{
+    "name": "swissup/module-breeze-nosto",
+    "description": "Nosto integration with Breeze Frontend",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "require": {
+        "nosto/module-nostotagging": "^7.0",
+        "swissup/module-breeze": "^2.15"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Swissup\\BreezeNosto\\": ""
+        }
+    }
+}
